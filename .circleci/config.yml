@@ -8,13 +8,13 @@ jobs:
       - checkout
 
       - run:
-        name: build dependences
-        command: bundle install
+         name: build dependences
+         command: bundle install
 
       - run:
-        name: build the jekyll site
-        command: bundle exec jekyll build
+         name: build the jekyll site
+         command: bundle exec jekyll build
 
       - run:
-        print: Print the Current Time
-        command: date
+         print: Print the Current Time
+         command: date
