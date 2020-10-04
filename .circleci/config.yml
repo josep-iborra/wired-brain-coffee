@@ -12,9 +12,9 @@ jobs:
          command: bundle install
 
       - run:
-         name: build the jekyll site
+         name: Compilar el sitio
          command: bundle exec jekyll build
 
       - run:
-         print: Print the Current Time
+         print: Print la fecha actual
          command: date
