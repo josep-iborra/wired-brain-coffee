@@ -18,7 +18,3 @@ jobs:
       - run:
          print: Print the Current Time
          command: date
-      
-      - run:
-        print: Imprimir otra vez la fecha
-        command: date
